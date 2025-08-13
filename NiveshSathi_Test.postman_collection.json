@@ -1,0 +1,95 @@
+{
+  "info": {
+    "_postman_id": "f1dbabc3-4cbe-4fc0-8f4a-f40a3b3eae12",
+    "name": "NiveshSathi Test Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Chat - Net Worth (Mock)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"mera net worth kya hai\",\n  \"idToken\": \"mock_token\"\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/chat",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "chat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Mock Net Worth API (Direct)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/mock/networth/user123",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "mock",
+            "networth",
+            "user123"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Chat - SIP Calculation",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"agar mai 5000 rupaye 5 saal tak 12% se SIP karu to kitna milega\",\n  \"idToken\": \"mock_token\"\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/chat",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "chat"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
