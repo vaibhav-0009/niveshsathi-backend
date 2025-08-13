@@ -16,6 +16,13 @@ from firebase_config import db
 #     return None
 
 # 🧾 Spending Summary with Alerts
+def try_financial_logic(query):
+    # logic here
+    return "some response"
+
+def summarize_spending(transactions):
+    # logic here
+    return "some summary"
 def summarize_spending(transactions, spending_limit=10000):
     categories = {}
     alerts = []
